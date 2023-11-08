@@ -42,6 +42,27 @@ p,h1, h2, h3, h4, h5, h6 {
 .section-title{
   font-family: 'Poppins', sans-serif; 
 }
+/*---------------------------------------------------------------
+#Vertical Scrllbar
+---------------------------------------------------------------*/
+
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+  height: 10px; /* Set the height of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent /* Set the background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4F6129; /* Set the background color of the scrollbar thumb */
+  border-radius: 3px;
+}
+
+#my-element {
+  overflow-y: auto;
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -769,6 +790,7 @@ color: #f4b328;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  
 }
 
 .story-wrapper:before {
@@ -1285,6 +1307,7 @@ Contact section
 
 .about_section .img_container .img-box img {
   width: 100%;
+  border-radius: 3px;
 }
 
 .about_section .detail-box {
@@ -2683,8 +2706,6 @@ font-weight: 700  ;
 .don-sec .don-box:hover img{
   transform: scale(1.1);
 }
-
-
 
 
 /*--------------------------------------------------------------
