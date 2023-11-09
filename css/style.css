@@ -48,7 +48,7 @@ p,h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-scrollbar {
   width: 12px; /* Set the width of the scrollbar */
-  height: 10px; /* Set the height of the scrollbar */
+  height: 15px; /* Set the height of the scrollbar */
 }
 
 ::-webkit-scrollbar-track {
